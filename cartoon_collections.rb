@@ -1,6 +1,8 @@
 def roll_call_dwarves(array) 
   i = 0 
   dwarves=[]
+  array.each_with_index do |name|
+  puts (a)
   while i < array.length 
   dwarves << puts(array[i])
   i += 1 

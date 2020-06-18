@@ -5,10 +5,14 @@ end
 end 
 
 def summon_captain_planet(array)
+  calls = []
   array.map do |name|
-  puts "#{name.capitalize}" + "!"
+  calls << puts "#{name.capitalize}" + "!"
 end
+calls 
 end
+
+
 
 
 def long_planeteer_calls# code an argument here

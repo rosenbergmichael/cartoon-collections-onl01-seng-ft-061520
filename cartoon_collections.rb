@@ -1,10 +1,10 @@
 def roll_call_dwarves(array) 
   dwarves=[]
   array.each_with_index do |name|
-  dwarves << puts "#{name}""
-end
-dwarves 
-end
+  dwarves << puts "#{name}"
+end 
+dwarves
+end 
 
 def summon_captain_planet# code an argument here
   # Your code here

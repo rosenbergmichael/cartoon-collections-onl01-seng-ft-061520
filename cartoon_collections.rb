@@ -17,10 +17,10 @@ def long_planeteer_calls(array)
   array.any? do |i|
     i > 4 
 end 
-   if array.include?(false)
-   false
- else
+   if array.any?(true)
    true
+ else
+   false
  end
 end
 

@@ -10,7 +10,6 @@ def summon_captain_planet(array)
   calls << puts "#{name.capitalize}" + "!"
 end
 calls 
-end
 end 
 
 

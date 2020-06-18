@@ -20,6 +20,7 @@ def long_planeteer_calls(array)
   else
     false 
 end
+i =+ 1 
 end 
 
 

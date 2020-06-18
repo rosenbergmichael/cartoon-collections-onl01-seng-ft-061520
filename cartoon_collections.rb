@@ -2,8 +2,8 @@ def roll_call_dwarves(array)
   dwarves=[]
   array.each_with_index do |name|
   while i < array.length 
-  dwarves << puts(array[i])
-  i += 1 
+  
+  dwarves << puts(array)
 end
 dwarves 
 end

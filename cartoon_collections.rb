@@ -11,7 +11,7 @@ def summon_captain_planet(array)
 end
 calls 
 end
-
+end 
 
 
 

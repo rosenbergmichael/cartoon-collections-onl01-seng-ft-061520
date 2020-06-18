@@ -14,14 +14,10 @@ end
 
 
 def long_planeteer_calls(array)
-  array.any? do |i|
-   i.length > 4
+  array.any? do |word|
+   word.length > 4
 end
 end
-
-#def long_planeteer_calls(array)
-#   array.any? { |word| word.length > 4}
-# end
 
 
 

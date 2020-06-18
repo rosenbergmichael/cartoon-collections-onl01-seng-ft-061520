@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   i = 0 
   dwarves=[]
   while i < array.length 
-  dwarves << puts (array[i])
+  dwarves << puts(array[i])
   i += 1 
 end
 dwarves 
